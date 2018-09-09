@@ -18,7 +18,7 @@
                 <div class="background"></div>
                 <div class="Title">Peter Paik</div>
                 <div class="Description">
-                   Hi! I'm a Mechanical Engineering Student with a heart of a designer
+                   Hi! I'm a Mechanical Engineering Student with a passion for design
                 </div>
                 <div id ='Sidebar'>
                     <ul>
@@ -71,7 +71,7 @@
             </div> <!--ABOUT ME-->
             <div class="Portfolio">
                 <div class="title3">Projects</div>
-                <div class="case1">
+                <div class="case1" onclick='modal1()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -79,7 +79,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>
                 </div>
-                <div class="case2">
+                <div class="case2" onclick='modal2()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -87,7 +87,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>
                 </div>
-                <div class="case3">
+                <div class="case3" onclick='modal3()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -95,7 +95,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>                    
                 </div>
-                <div class="case4">
+                <div class="case4" onclick='modal4()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -103,7 +103,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>                    
                 </div>
-                <div class="case5">
+                <div class="case5" onclick='modal5()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -111,7 +111,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>                   
                 </div>
-                <div class="case6">
+                <div class="case6" onclick='modal6()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -119,7 +119,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>                    
                 </div>
-                <div class="case7">
+                <div class="case7" onclick='modal7()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -127,7 +127,7 @@
                     <div class="leftdoor"></div>
                     <div class="bottomdoor"></div>                    
                 </div>
-                <div class="case8">
+                <div class="case8" onclick='modal8()'>
                     <div class="topdoors"></div>
 	                <div class="leftpane"></div>
                     <div class="rightpane"></div>
@@ -139,12 +139,12 @@
             <div class="Contact Me">
                 <div class="title4">Leave a message:</div>
                 <div class="comment">If you have any questions or find something interseting, feel free to reach out to me.</div>
-                <form>
+                <form action="http://formspree.io/hsp287@nyu.edu" method="POST">
                     <div class="input1">
                         <input type="text" name="First" placeholder="First Name">
                     </div>
                     <div class="input2">
-                        <input type="text" name="Email" placeholder="Email Address">
+                        <input type="email" name="_replyto" placeholder="Email Address">
                     </div>
                     <div class="input3">
                         <input type="text" name="Last" placeholder="Last Name">
@@ -164,5 +164,63 @@
                 © Copyright 2018 Peter Paik
             </div> <!--FOOTER-->
         </div> <!--PAGE-->
+        <div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close1()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close2()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close3()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close4()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close5()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close6()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close7()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+            <div class="modal">
+                <div class="modal_header">
+                    <span class="closebtn" onclick='close8()'>&times;</span>
+                </div>
+                <div class="modal_content"></div>
+                <div class="modal_footer"></div>
+            </div>
+        </div> <!--MODALS-->
     </body>
 </html>
