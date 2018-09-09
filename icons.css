@@ -18,6 +18,7 @@
 .circle5:hover, 
 .circle6:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
 .circle {
     background-color: #F0F4AB;
@@ -52,6 +53,7 @@
 }
 .circle2:hover, .circle7:hover {
     opacity: 1;
+    cursor: pointer;
 }
 .circular--portrait {
     position: relative;
@@ -319,6 +321,7 @@
 }
 .doc:hover {
     opacity: 0.7;
+    cursor: pointer;
 }
 /* End */
 
@@ -360,6 +363,7 @@
 }
 .pdf:hover {
     opacity: 0.7;
+    cursor: pointer;
 }
 /* End */
 

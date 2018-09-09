@@ -15,8 +15,6 @@ $(function(){
 // Menu Bar 
 var sidebar = function() {
     document.getElementById("Sidebar").classList.toggle("active");
-    document.getElementsByClassName("Icons").style.right = "150px";
-    document.getElementsByClassName("Icons").style.transition = "all 500ms linear";
 }
 // End
 
@@ -160,4 +158,76 @@ $(document).ready(function(){
     }
     })
 })
+// End
+
+
+//Modal Open On click
+var modal1 = function() {
+    var mode = $('.modal')[0];
+    mode.style.display = 'grid';
+}
+var modal2 = function() {
+    var mode = $('.modal')[1];
+    mode.style.display = 'grid';
+}
+var modal3 = function() {
+    var mode = $('.modal')[2];
+    mode.style.display = 'grid';
+}
+var modal4 = function() {
+    var mode = $('.modal')[3];
+    mode.style.display = 'grid';
+}
+var modal5 = function() {
+    var mode = $('.modal')[4];
+    mode.style.display = 'grid';
+}
+var modal6 = function() {
+    var mode = $('.modal')[5];
+    mode.style.display = 'grid';
+}
+var modal7 = function() {
+    var mode = $('.modal')[6];
+    mode.style.display = 'grid';
+}
+var modal8 = function() {
+    var mode = $('.modal')[7];
+    mode.style.display = 'grid';
+}
+// End
+
+
+//Modal Close on click
+var close1 = function() {
+    var mode = $('.modal')[0];
+    mode.style.display = 'none';
+}
+var close2 = function() {
+    var mode = $('.modal')[1];
+    mode.style.display = 'none';
+}
+var close3 = function() {
+    var mode = $('.modal')[2];
+    mode.style.display = 'none';
+}
+var close4 = function() {
+    var mode = $('.modal')[3];
+    mode.style.display = 'none';
+}
+var close5 = function() {
+    var mode = $('.modal')[4];
+    mode.style.display = 'none';
+}
+var close6 = function() {
+    var mode = $('.modal')[5];
+    mode.style.display = 'none';
+}
+var close7 = function() {
+    var mode = $('.modal')[6];
+    mode.style.display = 'none';
+}
+var close8 = function() {
+    var mode = $('.modal')[7];
+    mode.style.display = 'none';
+}
 // End
